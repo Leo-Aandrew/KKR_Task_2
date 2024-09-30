@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.start{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    cursor: pointer;
+}
+.header{
+    background-color: #2a2a90;
+}
+
+.header .logo{
+    padding:5px;
+    cursor: pointer;
+}
+
+
+.header .search input{
+    border-radius: 15px;
+    width: 800px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.header .search{
+    padding:15px;
+}
+.header .logo-search{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .menu a{
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 5px;
+ 
+}
+
+.header .menu{
+    margin:10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.main .prototype img{
+    width: 200px;
+    height:400px;
+    cursor: pointer;
+}
+.main .slide img{
+    width:800px;
+    height: 200px;
+    cursor: pointer;
+    
+}
+.main .slide{
+    margin-top: 10%;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.category{
+    margin:15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+.categories .equipments .container{
+    width:fit-content;
+    height: 200px;
+    margin: 10px;
+    padding: 15px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px; 
+    cursor: pointer;   
+}
+.categories .equipments .container:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+.categories .equipments{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+.categories .equipments .container h2{
+    margin-top:20px;
+}
+.featured .products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.featured .products img{
+    cursor: pointer;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+}
+.robu-services .contain .order{
+    display: flex;
+    width: fit-content;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-size: small;
+    color:rgb(81, 80, 80);
+    padding:10px;
+    margin:10px;
+ 
+}
+.robu-services .contain .order:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
+}
+.robu-services .contain .order .now h2{
+    padding:20px;
+}
+.robu-services .contain .order .now button{
+    padding:10px;
+    margin:10px;
+    width:100px;
+    background-color: #2a2a90;
+    color: white;
+    border-radius: 25px;
+
+}
+.robu-services .contain .order .now button:hover{
+    background-color: black;
+
+}
+.robu-services .contain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.videos img{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;   
+}
+.videos{
+    width:250px;
+    border-radius: 25px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+}
+.videos p{
+    padding: 15px;
+}
+.shorts .short{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.brands .box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.brands .box img{
+    box-shadow: 3px 3px 5px 5px rgb(196, 191, 191);
+    margin:20px;
+}
+
+.brands .box img:hover{
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);  
+}
+.subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2a2a90;
+    color: white;
+    padding: 25px;
+}
+.subscribe h2{
+    font-family: sans-serif;
+}
+.subscribe input{
+    width:100px;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 30px;
+}
+.subscribe button{
+    padding:10px;
+    width:100px;
+    border-radius: 25px;
+}
+.subscribe button:hover{
+    background-color: rgb(13, 98, 177);
+    color: white;
+}
+.end{
+    display: flex;
+    flex-wrap: wrap;
+}
+.end .one{
+    width: 400px;
+    
+    padding: 30px;
+}
+.end .one p{
+    padding:25px;
+}
+.end .one h2{
+    padding:15px;
+}
+.end .one .img{
+    width: 35px;
+    height: 35px;
+    padding:15px;
+}
+.end .two{
+    width:150px;
+   
+    font-size: small;
+    padding: 25px;
+}
+.end .two h3{
+    padding:15px;
+    color: rgb(92, 91, 91);
+}
+.footer{
+    background-color: rgb(198, 192, 192);
+    padding:15px;
+}
